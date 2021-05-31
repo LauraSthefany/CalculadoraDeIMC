@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <div class="container">
+      <h1>	&#10022; Calcule o seu IMC	&#10022;</h1>
+      <form>
+        <div class="container-calculadora-peso">
+          <p>&#10140; Informe o seu peso:</p>
+          <input id="peso" class="input-number"type="number"/>
+          <span>Kg</span>
+        </div>
+        <div class="container-calculadora-altura">
+          <p>	&#10140;Informe a sua altura:</p>
+          <input id="altura" class="input-number"type="number"/>
+           <span>cm</span>
+         </div>
+        <input id="btnCalcular" class="botao-calcular" type="button" value="Calcular"/>
+      </form>
+      <div id="resultado"></div>
+    </div>
+  </body>
+</html>
